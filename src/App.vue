@@ -150,6 +150,7 @@ import {
   AppFooter,
   InputForm,
   Textbox,
+  Checkbox
 } from '@phila/phila-ui';
 
 export default {
@@ -160,6 +161,7 @@ export default {
     AppFooter,
     InputForm,
     Textbox,
+    Checkbox,
     PhilaButton,
     AlertBanner,
     i18nBanner,
