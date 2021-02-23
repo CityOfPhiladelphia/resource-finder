@@ -1088,10 +1088,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@phila/phila-ui@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@phila/phila-ui/-/phila-ui-2.0.0.tgz#308ce6b940ef25e17efa876c0ff5510cdad8e63f"
-  integrity sha512-K3TZ4qsITGn3Qg0BOiwHyniy/J/B2BpLQMGU7phsLKey3NwNQfEffmnfj5XtW5SkWSg2s6rX7QimFcg+9lydWA==
+"@phila/phila-ui@2.1.0-beta.4":
+  version "2.1.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@phila/phila-ui/-/phila-ui-2.1.0-beta.4.tgz#fcf4556638fcf5afdbedc659a3a1f7d28df5e5ea"
+  integrity sha512-IYSOzMUSrUbd6U/CXhKMuXde/S4X+wr6qYSUTwj8A0Ht2dKXLfHlCFEtp1wzw0DXoKGL422cqLvBf05IZ0Onzg==
   dependencies:
     "@babel/plugin-transform-runtime" "^7.12.1"
     "@babel/runtime" "^7.12.5"
