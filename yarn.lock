@@ -1088,10 +1088,9 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@phila/phila-ui@2.1.0-beta.9":
-  version "2.1.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@phila/phila-ui/-/phila-ui-2.1.0-beta.9.tgz#752b40ad4e88d400a9e22413af3b7d1558dc9440"
-  integrity sha512-FjQgbFQmPXSKpagXskrimlsDLmZu77e1trWomzodvLHA998Xv45L6w1WYi8qbUtgnWrFjyYqGmAEUZQKT8jpGQ==
+"@phila/phila-ui@https://github.com/CityOfPhiladelphia/phila-ui#3baec7b7a89b652b35d48f665fa5cdb1e907b0dc":
+  version "1.7.0"
+  resolved "https://github.com/CityOfPhiladelphia/phila-ui#3baec7b7a89b652b35d48f665fa5cdb1e907b0dc"
   dependencies:
     "@babel/plugin-transform-runtime" "^7.12.1"
     "@babel/runtime" "^7.12.5"
