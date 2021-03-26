@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
-    "@phila/phila-ui": "2.1.0-alpha.1",
+    "@phila/phila-ui": "2.1.0-alpha.2",
     "@phila/vue-datafetch": "1.4.4",
     "@phila/vue-mapping": "2.2.9",
     "axios": "^0.19.0",
