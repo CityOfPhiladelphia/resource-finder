@@ -546,7 +546,6 @@ export default {
     if (this.$config.dataSources) {
       this.$controller.dataManager.fetchData();
     }
-    // this.setUpData(this.$store.state.sources);
 
     if (!this.i18nEnabled) {
       this.$data.buttonText = this.$data.isMapVisible ? 'Toggle to resource list' : 'Toggle to map';
@@ -567,8 +566,6 @@ export default {
     if (this.$config.gtag && this.$config.gtag.category) {
       this.$store.commit('setGtagCategory', this.$config.gtag.category);
     }
-
-    // this.handleResize();
   },
   created() {
     console.log('App.vue created, this.$config:', this.$config);
@@ -579,6 +576,10 @@ export default {
       if (this.$config.map.type) {
         this.$store.commit('setMapType', this.$config.map.type);
       }
+    }
+
+    if (this.$config.app.logoAlt) {
+      console.log('App.vue created, there is logoAlt');
     }
   },
 
@@ -957,8 +958,8 @@ html, body {
 }
 
 a {
-  font-weight: bold;
-  text-decoration: underline;
+  // font-weight: bold;
+  // text-decoration: underline;
 }
 
 .no-scroll{
